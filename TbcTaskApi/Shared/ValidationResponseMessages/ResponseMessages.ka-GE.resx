@@ -1,0 +1,60 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <data name="ValidationGeneralError" xml:space="preserve">
+        <value>ვალიდაციის შეცდომა</value>
+    </data>
+    <data name="NameLengthError" xml:space="preserve">
+        <value>სახელისა და გვარის სიგრძე უნდა იყოს 2-დან 50 სიმბოლომდე.</value>
+    </data>
+    <data name="GenderValidationError" xml:space="preserve">
+        <value>სქესის ვალიდური მნიშვნელობაა 1 ან 2.</value>
+    </data>
+    <data name="PersonalNumberValidationError" xml:space="preserve">
+        <value>პირადი ნომერი უნდა იყოს 11 სიმბოლოს სიგრძის და შეიცავდეს მხოლოდ ციფრებს.</value>
+    </data>
+    <data name="AgeValidationError" xml:space="preserve">
+        <value>პირს უნდა ჰქონდეს 18 ან მეტი წელი.</value>
+    </data>
+    <data name="PhoneValidationError" xml:space="preserve">
+        <value>ტელეფონის ნომერი უნდა იყოს 4-დან 50 სიმბოლომდე სიგრძის და შეიცავდეს მხოლოდ ციფრებს.</value>
+    </data>
+    <data name="NameLetterValidationErrorMessage" xml:space="preserve">
+        <value>სახელი და გვარი უნდა შეიცავდეს მხოლოდ ინგლისურ ან ქართულ ასოებს, არა ორივეს ერთად.</value>
+    </data>
+    <data name="UserAlreadyExistsMessage" xml:space="preserve">
+        <value>ასეთი პირადი ნომრით მომხმარებელი უკვე არსებობს.</value>
+    </data>
+    <data name="UserNotFoundMessage" xml:space="preserve">
+        <value>მომხმარებელი არ მოიძებნა.</value>
+    </data>
+    <data name="ConnectionExists" xml:space="preserve">
+        <value>მომხმარებელი უკვე დაკავშირებულია ამ პიროვნებასთან.</value>
+    </data>
+    <data name="ConnectionCreatedSuccess" xml:space="preserve">
+        <value>მომხმარებლის კავშირი წარმატებით დაემატა.</value>
+    </data>
+    <data name="UserDeleteSuccess" xml:space="preserve">
+        <value>მომხმარებელი წარმატებით წაიშალა.</value>
+    </data>
+    <data name="PhotoSaveError" xml:space="preserve">
+        <value>ფოტოს შენახვისას მოხდა შეცდომა.</value>
+    </data>
+    <data name="PhotoUploadedSuccess" xml:space="preserve">
+        <value>ფოტო წარმატებით აიტვირთა.</value>
+    </data>
+    <data name="ConnectedPersonDoesnotExistException" xml:space="preserve">
+        <value>დაკავშირებული პირების id-ები არასწორია.</value>
+    </data>
+</root>

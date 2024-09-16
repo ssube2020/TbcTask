@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <data name="ValidationGeneralError" xml:space="preserve">
+        <value>Validation Error</value>
+    </data>
+    <data name="NameLengthError" xml:space="preserve">
+        <value>Name and Surname must be between 2 and 50 characters.</value>
+    </data>
+    <data name="GenderValidationError" xml:space="preserve">
+        <value>Gender values can be 1 and 2</value>
+    </data>
+    <data name="PersonalNumberValidationError" xml:space="preserve">
+        <value>Personal number must be 11 chars lenght and only contain numbers</value>
+    </data>
+    <data name="AgeValidationError" xml:space="preserve">
+        <value>Person must be 18 years or older</value>
+    </data>
+    <data name="PhoneValidationError" xml:space="preserve">
+        <value>Phone number must be betweeon 4 and 50 length and contain only numbers</value>
+    </data>
+    <data name="NameLetterValidationErrorMessage" xml:space="preserve">
+        <value>Name and Surname must contain only English or only Georgian letters, not both.</value>
+    </data>
+    <data name="UserAlreadyExistsMessage" xml:space="preserve">
+        <value>User with such personal number already exists.</value>
+    </data>
+    <data name="UserNotFoundMessage" xml:space="preserve">
+        <value>User with this id does not exist.</value>
+    </data>
+    <data name="ConnectionExists" xml:space="preserve">
+        <value>User already has such connected person.</value>
+    </data>
+    <data name="ConnectionCreatedSuccess" xml:space="preserve">
+        <value>User connection added succesfully</value>
+    </data>
+    <data name="UserDeleteSuccess" xml:space="preserve">
+        <value>User deleted succesfully</value>
+    </data>
+    <data name="PhotoSaveError" xml:space="preserve">
+        <value>Error while saving photo</value>
+    </data>
+    <data name="PhotoUploadedSuccess" xml:space="preserve">
+        <value>Photo Uploaded Successfully</value>
+    </data>
+    <data name="ConnectedPersonDoesnotExistException" xml:space="preserve">
+        <value>Connected persons id's are not valid</value>
+    </data>
+</root>
